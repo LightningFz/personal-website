@@ -124,3 +124,7 @@ h3{
 .project-des{
     text-align: center;
 }
+img{
+    margin: 0;
+    padding: 0;
+}
