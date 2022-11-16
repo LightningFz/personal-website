@@ -100,6 +100,7 @@ h3{
     padding: 5px 7.5px;
     margin: 5px 7.5px;
     color: #545455;
+    background-color: #fff;
     cursor: pointer;
 }
 .btn:hover{
