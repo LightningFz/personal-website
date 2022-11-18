@@ -23,96 +23,110 @@
             </nav>
         </div>
     </header>
-    <section class="section-1 nomargin">
-        <div class="div-1">
-            <h2 class="page-title font-xl">Projects</h1>
-
-            <div id="buttons" >
-                <button class="font-s btn" onclick="filterObjects('all')">All</button>
-                <button class="font-s btn" onclick="filterObjects('done')">Done</button>
-                <button class="font-s btn" onclick="filterObjects('games')">Games</button>
-                <button class="font-s btn" onclick="filterObjects('websites')">Websites</button>
-                <button class="font-s btn" onclick="filterObjects('comingSoon')">Coming Soon</button>
+    <div class="body">
+        <div id="sidebar">
+            <div class="toggle-btn" onclick="show()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-
-            <div class="objects">
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Online Ecommerce Shop</h3>
-                    </div>
-                </div>
-                <div class="box show all games comingSoon">
-                    <div class="project-des">
-                        <h3>tic tac to (react)</h3>
-                    </div>
-                </div>
-                <div class="box show all games comingSoon">
-                    <div class="project-des">
-                        <h3>RTX Game(flappy bird)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Food Order Website</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Social Media Analytics(SasS)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Chrome extension</h3>
-                    </div>
-                </div>
-                <div class="box show all websites done">
-                    <div class="project-des">
-                        <h3>Form validation</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Single page Apps(SPA)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Progressive Web Apps(PWA)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Creating a Landing Page with (GSAP)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Full stack app using(NodeJS)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>CRUD web application (To-Do List)</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>API-connected website</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>'perfect score' website</h3>
-                    </div>
-                </div>
-                <div class="box show all websites comingSoon">
-                    <div class="project-des">
-                        <h3>Stock Price Predictions</h3>
-                    </div>
-                </div>
-            </div>
+            <ul>
+                <li><h3>project</h3></li>
+                <li><a href="https://github.com/LightningFz/Form-Validation" >project</a></li>
+            </ul>
         </div>
-    </section>
+        <section class="section-1 nomargin">
+            <div class="div-1">
+                <h2 class="page-title font-xl">Projects</h1>
+    
+                <div id="buttons" >
+                    <button class="font-s btn" onclick="filterObjects('all')">All</button>
+                    <button class="font-s btn" onclick="filterObjects('done')">Done</button>
+                    <button class="font-s btn" onclick="filterObjects('games')">Games</button>
+                    <button class="font-s btn" onclick="filterObjects('websites')">Websites</button>
+                    <button class="font-s btn" onclick="filterObjects('comingSoon')">Coming Soon</button>
+                    <button class="font-s btn" onclick="filterObjects('none')">None</button>
+                </div>
+    
+                <div class="objects">
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Online Ecommerce Shop</h3>
+                        </div>
+                    </div>
+                    <div class="box show all games comingSoon">
+                        <div class="project-des">
+                            <h3>tic tac to (react)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all games comingSoon">
+                        <div class="project-des">
+                            <h3>RTX Game(flappy bird)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Food Order Website</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Social Media Analytics(SasS)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Chrome extension</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites done">
+                        <div class="project-des">
+                            <h3>Form validation</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Single page Apps(SPA)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Progressive Web Apps(PWA)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Creating a Landing Page with (GSAP)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Full stack app using(NodeJS)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>CRUD web application (To-Do List)</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>API-connected website</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>'perfect score' website</h3>
+                        </div>
+                    </div>
+                    <div class="box show all websites comingSoon">
+                        <div class="project-des">
+                            <h3>Stock Price Predictions</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
